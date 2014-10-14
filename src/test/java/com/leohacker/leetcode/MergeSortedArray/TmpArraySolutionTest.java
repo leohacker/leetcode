@@ -1,9 +1,9 @@
-package com.leohacker.leetcode.MergeSortedArray.tmparray;
+package com.leohacker.leetcode.MergeSortedArray;
 
 import org.junit.Test;
 
-public class SolutionTest {
-    private static Solution solution = new Solution();
+public class TmpArraySolutionTest {
+    private static TmpArraySolution solution = new TmpArraySolution();
 
     @Test
     public void testMerge() throws Exception {

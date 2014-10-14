@@ -1,9 +1,9 @@
-package com.leohacker.leetcode.MergeSortedArray.tmparray;
+package com.leohacker.leetcode.MergeSortedArray;
 
 /**
  *
  */
-public class Solution {
+public class TmpArraySolution {
     public void merge(int A[], int m, int B[], int n) {
         int[] tmp = new int[m];
         System.arraycopy(A, 0, tmp, 0, m);

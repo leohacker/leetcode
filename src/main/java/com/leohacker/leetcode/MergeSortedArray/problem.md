@@ -1,4 +1,5 @@
-* Merge Sorted Array
+Merge Sorted Array
+==================
 https://oj.leetcode.com/problems/merge-sorted-array/
 
 Given two sorted integer arrays A and B, merge B into A as one sorted array.

@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.MergeSortedArray;
+package com.leohacker.leetcode.MergeSortedArray.tmparray;
 
 import org.junit.Test;
 

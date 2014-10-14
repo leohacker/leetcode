@@ -1,7 +1,7 @@
-package com.leohacker.leetcode.MergeSortedArray;
+package com.leohacker.leetcode.MergeSortedArray.tmparray;
 
 /**
- * Created by leojiang on 10/3/14.
+ *
  */
 public class Solution {
     public void merge(int A[], int m, int B[], int n) {

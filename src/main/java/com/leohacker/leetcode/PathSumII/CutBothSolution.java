@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * Created by leojiang on 10/16/14.
  */
-public class NonRecursiveSolution {
+public class CutBothSolution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if ( root == null ) {

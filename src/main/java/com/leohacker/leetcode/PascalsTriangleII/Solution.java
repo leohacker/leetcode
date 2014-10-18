@@ -19,9 +19,11 @@ public class Solution {
             for (int i = 1; i < rowIndex; i++) {
                 row.add(1);
                 int j = i - 1;
+                int cur = row.get(j).intValue();
                 while( j > 0 ) {
-                    int num = row.get(j).intValue() + row.get(j-1).intValue();
-                    row.set(j, num);
+                    int pre = row.get(j-1).intValue();
+                    row.set(j, cur + pre);
+                    cur = pre;
                 }
             }
             return row;

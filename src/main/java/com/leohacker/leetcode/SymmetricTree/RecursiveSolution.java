@@ -1,5 +1,8 @@
 package com.leohacker.leetcode.SymmetricTree;
 
+/**
+ * 递归判断左右子树是否镜像。
+ */
 public class RecursiveSolution {
     public boolean isSymmetric(TreeNode root) {
         if ( root == null ) {

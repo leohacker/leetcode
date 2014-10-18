@@ -4,29 +4,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by leojiang on 10/18/14.
+ * 优化的诀窍在于不要使用List.set(index, e)方法。这个方法本身是要遍历一遍的。
+ * 对于链表而言，在尾部添加和头部删除，更加容易。
  */
 public class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> row = new ArrayList<Integer>();
-        if ( rowIndex == 0 ) {
-            return row;
-        }
-        if ( rowIndex == 1 ) {
-            row.add(1);
-            return row;
-        } else {
-            for (int i = 1; i < rowIndex; i++) {
-                row.add(1);
-                int j = i - 1;
-                int cur = row.get(j).intValue();
-                while( j > 0 ) {
-                    int pre = row.get(j-1).intValue();
-                    row.set(j, cur + pre);
-                    cur = pre;
+        row.add(1);
+        for (int i = 1; i <= rowIndex; i++) {
+            for (int j = 0; j <=i; j++) {
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    row.add(row.get(j-1) + row.get(j));
                 }
             }
-            return row;
+
+            for (int j = 0; j < i; j++) {
+                row.remove(0);
+            }
         }
+        return row;
     }
 }

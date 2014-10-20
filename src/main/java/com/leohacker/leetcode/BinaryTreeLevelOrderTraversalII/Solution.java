@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.BinaryTreeLevelOrderTravesal;
+package com.leohacker.leetcode.BinaryTreeLevelOrderTraversalII;
 
 import com.leohacker.leetcode.utils.TreeNode;
 
@@ -6,11 +6,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created by leojiang on 10/20/14.
- */
 public class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if (root == null) {
             return result;
@@ -36,6 +33,12 @@ public class Solution {
             result.add(tmp);
             pre = generated;
         }
-        return result;
+
+        List<List<Integer>> finalResult = new ArrayList<List<Integer>>();
+        int size = result.size();
+        for (int i = 0; i < size; i++) {
+            finalResult.add(result.get(size - 1 - i));
+        }
+        return finalResult;
     }
 }

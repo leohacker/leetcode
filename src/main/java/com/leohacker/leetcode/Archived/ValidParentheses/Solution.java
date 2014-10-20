@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.ValidParentheses;
+package com.leohacker.leetcode.Archived.ValidParentheses;
 
 import java.util.Stack;
 

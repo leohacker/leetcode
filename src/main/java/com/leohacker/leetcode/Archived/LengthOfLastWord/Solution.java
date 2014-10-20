@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.LengthOfLastWord;
+package com.leohacker.leetcode.Archived.LengthOfLastWord;
 
 /**
  * Created by leojiang on 10/20/14.

@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.RemoveElement;
+package com.leohacker.leetcode.Archived.RemoveElement;
 
 /**
  * Created by leojiang on 10/20/14.

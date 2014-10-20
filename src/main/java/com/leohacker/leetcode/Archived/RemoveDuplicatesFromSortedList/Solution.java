@@ -1,5 +1,7 @@
 package com.leohacker.leetcode.Archived.RemoveDuplicatesFromSortedList;
 
+import com.leohacker.leetcode.utils.ListNode;
+
 /**
  * Created by leojiang on 10/20/14.
  */

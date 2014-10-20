@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.RemoveDuplicatesFromSortedList;
+package com.leohacker.leetcode.Archived.RemoveDuplicatesFromSortedList;
 
 /**
  * Created by leojiang on 10/20/14.

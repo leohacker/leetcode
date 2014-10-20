@@ -1,5 +1,7 @@
 package com.leohacker.leetcode.SymmetricTree;
 
+import com.leohacker.leetcode.utils.TreeNode;
+
 /**
  * 递归判断左右子树是否镜像。
  */

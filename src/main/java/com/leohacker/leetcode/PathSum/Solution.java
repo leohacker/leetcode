@@ -1,5 +1,7 @@
 package com.leohacker.leetcode.PathSum;
 
+import com.leohacker.leetcode.utils.TreeNode;
+
 /**
  * Simple!
  */

@@ -1,5 +1,7 @@
 package com.leohacker.leetcode.ConstructBinaryTreeFromInorderPostorderTraversal;
 
+import com.leohacker.leetcode.utils.TreeNode;
+
 /**
  * Created by leojiang on 10/3/14.
  */

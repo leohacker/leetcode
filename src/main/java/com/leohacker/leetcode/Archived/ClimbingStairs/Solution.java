@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.ClimbingStairs;
+package com.leohacker.leetcode.Archived.ClimbingStairs;
 
 /**
  * 假设你从楼梯顶向下走。你可以迈一步或者两步。递归的想，于是就是一个 Fibonacci 函数。

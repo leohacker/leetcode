@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.RemoveNthNodeFromEndOfList;
+package com.leohacker.leetcode.Archived.RemoveNthNodeFromEndOfList;
 
 import com.leohacker.leetcode.utils.ListNode;
 

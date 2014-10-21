@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.PlusOne;
+package com.leohacker.leetcode.Archived.PlusOne;
 
 /**
  * Created by leojiang on 10/20/14.
@@ -23,10 +23,4 @@ public class Solution {
             return result;
         }
     }
-
-    String s = "asdf";
-    try {
-        Double num = Double.parseDouble(s);
-    } catch ()
-
 }

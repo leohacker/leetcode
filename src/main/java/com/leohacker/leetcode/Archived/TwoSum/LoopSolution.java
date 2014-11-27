@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.TwoSum;
+package com.leohacker.leetcode.Archived.TwoSum;
 
 /*
     Loop index in the array, and loop from the beginning to current index for answer. O(n2)

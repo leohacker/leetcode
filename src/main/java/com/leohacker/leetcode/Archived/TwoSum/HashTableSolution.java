@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.TwoSum;
+package com.leohacker.leetcode.Archived.TwoSum;
 
 import java.util.HashMap;
 

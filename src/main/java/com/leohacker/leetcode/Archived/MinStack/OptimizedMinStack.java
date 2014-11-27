@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.MinStack;
+package com.leohacker.leetcode.Archived.MinStack;
 
 import java.util.Stack;
 

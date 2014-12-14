@@ -4,8 +4,8 @@ import java.util.Stack;
 
 // Please refer: https://oj.leetcode.com/problems/min-stack/solution/
 class OptimizedMinStack {
-    private Stack<Integer> stack = new Stack<>();
-    private Stack<Integer> minStack = new Stack<>();
+    private Stack<Integer> stack = new Stack<Integer>();
+    private Stack<Integer> minStack = new Stack<Integer>();
 
     public void push(int x) {
         stack.push(x);

@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.LongestSubstringWithoutRepeatingCharacters;
+package com.leohacker.leetcode.Archived.LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.LongestSubstringWithoutRepeatingCharacters;
+package com.leohacker.leetcode.Archived.LongestSubstringWithoutRepeatingCharacters;
 
 import junit.framework.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.ContainerWithMostWater;
+package com.leohacker.leetcode.Archived.ContainerWithMostWater;
 
 import junit.framework.Assert;
 import org.junit.Test;

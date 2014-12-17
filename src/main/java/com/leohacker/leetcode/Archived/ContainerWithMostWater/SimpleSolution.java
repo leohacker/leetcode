@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.ContainerWithMostWater;
+package com.leohacker.leetcode.Archived.ContainerWithMostWater;
 
 /**
  * Created by leojiang on 12/14/14.

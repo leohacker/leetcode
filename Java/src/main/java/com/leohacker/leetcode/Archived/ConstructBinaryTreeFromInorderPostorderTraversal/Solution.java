@@ -2,6 +2,8 @@ package com.leohacker.leetcode.Archived.ConstructBinaryTreeFromInorderPostorderT
 
 import com.leohacker.leetcode.utils.TreeNode;
 
+import java.util.Arrays;
+
 /**
  * Created by leojiang on 10/3/14.
  */
@@ -26,21 +28,17 @@ public class Solution {
         if (indexRoot == 0) {
             node.left = null;
         } else {
-            int[] leftin = new int[indexRoot];
-            System.arraycopy(inorder, 0, leftin, 0, indexRoot);
-            int[] leftpost = new int[indexRoot];
-            System.arraycopy(postorder, 0, leftpost, 0, indexRoot);
-            node.left = buildTree(leftin, leftpost);
+            int[] leftInorder = Arrays.copyOf(inorder, indexRoot);
+            int[] leftPostorder = Arrays.copyOf(postorder, indexRoot);
+            node.left = buildTree(leftInorder, leftPostorder);
         }
 
         if ( length - indexRoot - 1 == 0 ) {
             node.right = null;
         } else {
-            int[] rightin = new int[length - indexRoot - 1];
-            System.arraycopy(inorder, indexRoot + 1, rightin, 0, length - indexRoot - 1);
-            int[] rightpost = new int[length - indexRoot - 1];
-            System.arraycopy(postorder, indexRoot, rightpost, 0, length - indexRoot - 1);
-            node.right  = buildTree(rightin, rightpost);
+            int[] rightInorder = Arrays.copyOfRange(inorder, indexRoot+1, length);
+            int[] rightPostorder = Arrays.copyOfRange(postorder, indexRoot, length -1);
+            node.right  = buildTree(rightInorder, rightPostorder);
         }
         return node;
     }

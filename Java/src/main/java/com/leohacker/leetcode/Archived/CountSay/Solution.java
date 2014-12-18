@@ -5,31 +5,25 @@ package com.leohacker.leetcode.Archived.CountSay;
  */
 public class Solution {
     public String countAndSay(int n) {
-        if ( n == 1 ) {
-            return "1";
-        }
+        String current = "1";
         n--;
-        StringBuilder sb = new StringBuilder("1");
-        StringBuilder next = new StringBuilder("");
-
         for (int i = 0; i < n; i++) {
-            next = new StringBuilder("");
+            StringBuilder next = new StringBuilder("");
             int j = 0;
-            int length = sb.length();
+            int length = current.length();
             while ( j < length ) {
-                char c = sb.charAt(j);
+                char c = current.charAt(j);
                 int count = 0;
-                while (j < length && c == sb.charAt(j)) {
+                while (j < length && c == current.charAt(j)) {
                     count++;
                     j++;
                 }
                 next.append(count);
                 next.append(c);
             }
-            sb = next;
+            current = next.toString();
         }
 
-        return next.toString();
+        return current;
     }
-
 }

@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Created by leojiang on 12/17/14.
  */
-public class Solution {
+public class HashMapSolution {
     public List<List<Integer>> threeSum(int[] num) {
         List<List<Integer>> results = new ArrayList<List<Integer>>();
 

@@ -1,6 +1,6 @@
 package com.leohacker.leetcode.Archived.CopyListWithRandomPointer;
 
-// if you can't the error message,
+// if you can't understand the error message,
 // refer : https://oj.leetcode.com/discuss/377/anyone-know-what-input-1-2-2-2-output-1-2-%23-%23-expected-1-2-2-2
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {

@@ -23,9 +23,9 @@ public class Solution {
         for ( int index = 1 ; index < length; index++ ) {
             char c = stringArray[index];
 
+            // if found the duplicate character, remove the characters before and the duplicated character from map.
             if (existMap.containsKey(c)) {
                 int len = index - begin;
-//                System.out.println(String.format("index: %d, begin: %d", index, begin));
                 if (len > maxLength) {
                     maxLength = len;
                 }
@@ -35,12 +35,15 @@ public class Solution {
                     existMap.remove(stringArray[begin]);
                     begin++;
                 }
+                // remove the repeating character.
                 existMap.remove(stringArray[begin]);
                 begin++;
             }
+            // put the current character into map.
             existMap.put(c, true);
         }
 
+        // handle the last string.
         int len = length - begin;
         if ( len > maxLength ) {
             maxLength = len;

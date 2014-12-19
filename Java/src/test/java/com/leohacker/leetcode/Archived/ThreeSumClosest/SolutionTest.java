@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.ThreeSumClosest;
+package com.leohacker.leetcode.Archived.ThreeSumClosest;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.leohacker.leetcode.ThreeSumClosest;
+package com.leohacker.leetcode.Archived.ThreeSumClosest;
 
 import java.util.Arrays;
 
